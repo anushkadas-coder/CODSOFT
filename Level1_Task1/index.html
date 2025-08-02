@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #111;
+      color: #f1f1f1;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #1c1c1c;
+    }
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #f1f1f1;
+    }
+    .navbar ul {
+      list-style: none;
+      display: flex;
+    }
+    .navbar ul li {
+      margin: 0 15px;
+    }
+    .navbar ul li a {
+      text-decoration: none;
+      color: #f1f1f1;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+    .navbar ul li a:hover {
+      color: #00bcd4;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 10%;
+      background-color: #000;
+    }
+    .hero-text {
+      max-width: 600px;
+    }
+    .hero-text h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero-text p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .hero-text button {
+      background-color: #00bcd4;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .hero-image img {
+      width: 300px;
+      border-radius: 10px;
+    }
+    .about {
+      display: flex;
+      align-items: flex-start;
+      padding: 60px 10%;
+      background-color: #1c1c1c;
+    }
+    .about-image img {
+      width: 250px;
+      margin-right: 40px;
+      border-radius: 10px;
+    }
+    .about-text h2 {
+      margin-bottom: 20px;
+      color: #00bcd4;
+    }
+    .about-text p {
+      margin-bottom: 15px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .about-text button {
+      background-color: #00bcd4;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-text">
+      <h1>ANUSHKA DAS</h1>
+      <p>I’m a student developer learning full stack web development. I enjoy building creative and functional websites.</p>
+      <button>Hire Me</button>
+    </div>
+    <div class="hero-image">
+      <img src="profile1.jpg" alt="Profile Photo">
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="about-image">
+      <img src="profile2.jpg" alt="Profile Photo">
+    </div>
+    <div class="about-text">
+      <h2>ABOUT ME</h2>
+      <p>I'm currently pursuing my BTech in IT. My interests lie in frontend development and UI/UX design. I have hands-on experience with HTML, CSS, and JavaScript.</p>
+      <p>I'm also exploring frameworks like React and backend technologies like Node.js. I love solving problems and collaborating on tech projects.</p>
+      <a href="resume.pdf" download><button>Download Resume</button></a>
+    </div>
+  </section>
+</body>
+</html>
