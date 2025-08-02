@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowFit - Fitness Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background-color: #000;
+    }
+    header h1 {
+      color: #00ffcc;
+      font-size: 28px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #00ffcc;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 10%;
+      background-color: #1a1a1a;
+    }
+    .hero-text h2 {
+      font-size: 36px;
+      color: #00ffcc;
+    }
+    .hero-text p {
+      margin: 20px 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .hero-text button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #00ffcc;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .hero-image img {
+      width: 300px;
+      border-radius: 10px;
+    }
+    .features {
+      background: #000;
+      padding: 60px 10%;
+      display: flex;
+      gap: 30px;
+    }
+    .feature-box {
+      background: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1;
+    }
+    .feature-box h3 {
+      margin-bottom: 10px;
+      color: #00ffcc;
+    }
+    .footer {
+      text-align: center;
+      padding: 30px 10%;
+      background: #111;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GlowFit</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Trainers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Level Up Your Fitness</h2>
+      <p>Join GlowFit and take your health journey to the next level with our expert trainers and personalized workout plans.</p>
+      <button>Join Now</button>
+    </div>
+    <div class="hero-image">
+      <img src="fitness.jpg" alt="Fitness image">
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>🏋️‍♂️ Personalized Workouts</h3>
+      <p>Custom plans tailored to your goals by certified trainers.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🍎 Nutrition Guidance</h3>
+      <p>Diet plans designed by professionals to support your journey.</p>
+    </div>
+    <div class="feature-box">
+      <h3>📈 Progress Tracking</h3>
+      <p>Track your improvements with weekly check-ins and reports.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 GlowFit. All rights reserved.</p>
+  </footer>
+</body>
+</html>
